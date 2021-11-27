@@ -131,9 +131,9 @@ class final_topo(Topo):
     self.addLink(floor2_s5, host2, port1=3, port2=0)
     # Air-gapped floor
     # AG_floor_s1 (2) <--> secure_clients (0)
-    self.linkSecureClients(numSecureClients, AG_floor_s6) 
-
-    print "Hello network"
+    self.linkSecureClients(numSecureClients, AG_floor_s6)
+    
+    print "Network Initialized"
 
 def configure():
   topo = final_topo()
