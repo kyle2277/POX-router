@@ -24,7 +24,6 @@ CoreSwitchConnections = {
   "104.24.32.100": 6,  # Trusted Host
   "108.44.83.103": 7,  # Untrusted Host 
 }
-
 DataCenterSwitchConnections = {
   "30.1.4.66": 2
 }

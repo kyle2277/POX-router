@@ -56,7 +56,7 @@ class final_topo(Topo):
     web_server = self.addHost('h_server', mac='00.00.00.00.00.66', ip='30.1.4.66/24', defaultRoute="h_server-eth0")
     # Floor 1
     laptop = self.addHost('laptop', mac='00:00:00:00:00:01', ip='20.2.1.10/24', defaultRoute="laptop-eth0")
-    lab_machine = self.addHost('lab_mac', mac='00:00:00:00:00:02', ip='20.2.1.20/24', defaultRoute="lab_mac-eth0")
+    lab_machine = self.addHost('lab', mac='00:00:00:00:00:02', ip='20.2.1.20/24', defaultRoute="lab-eth0")
     device1 = self.addHost('device1', mac='00.00.00.00.00.03', ip='20.2.1.30/24', defaultRoute="device1-eth0")
     device2 = self.addHost('device2', mac='00.00.00.00.00.04', ip='20.2.1.40/24', defaultRoute="device2-eth0")
     # Floor 2
